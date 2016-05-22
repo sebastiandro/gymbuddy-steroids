@@ -1,5 +1,8 @@
 angular
     .module('start')
     .controller('StartController', function($scope, supersonic) {
-        supersonic.logger.log("tja!");
+        $scope.openDrawer = function() {
+            supersonic.ui.drawers.open("left").then( function() {
+            });
+        }
     });

@@ -2,7 +2,7 @@
 
 module.exports =
 
-  # See styling options for tabs and other native components in app/common/native-styles/ios.css or app/common/native-styles/android.css
+# See styling options for tabs and other native components in app/common/native-styles/ios.css or app/common/native-styles/android.css
   tabs: [
     {
       title: "Index"
@@ -25,14 +25,16 @@ module.exports =
     location: "start#index"
 
 
-  # drawers:
-  #   left:
-  #     id: "leftDrawer"
-  #     location: "example#drawer"
-  #     showOnAppLoad: false
-  #   options:
-  #     animation: "swingingDoor"
-  #
-  # initialView:
-  #   id: "initialView"
-  #   location: "example#initial-view"
+  drawers:
+    left:
+      id: "leftDrawer"
+      location: "start#drawer"
+      showOnAppLoad: false
+    options:
+      animation: "slideFromLeft"
+
+###
+  initialView:
+    id: "initialView"
+    location: "start#index"
+###
