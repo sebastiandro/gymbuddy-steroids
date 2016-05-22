@@ -4,14 +4,16 @@
  ***********************************************************/
 
 navigation-bar {
-  background-color: #00B5FF;
-  color: #ffffff;
+  background-color: #1ABC9C;
+  box-shadow: 0px 3px 0px 0px #15997F;
 }
 
 navigation-bar title {
-  color: #ffffff;
+  /* GymBuddy: */
   font-size: 18px;
-  font-weight: 600;
+  font-weight:bold;
+  color: #FFFFFF;
+  text-shadow: 0px 1px 0px rgba(0,0,0,0.15);
 }
 
 navigation-bar button, navigation-bar back-bar-button {

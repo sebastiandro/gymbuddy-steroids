@@ -7,7 +7,7 @@ module.exports =
     {
       title: "Index"
       id: "index"
-      location: "example#getting-started" # Supersonic module#view type navigation
+      location: "start#index"
     }
     {
       title: "Settings"
@@ -21,19 +21,9 @@ module.exports =
     }
   ]
 
-  # rootView:
-  #   location: "example#getting-started"
+  rootView:
+    location: "start#index"
 
-  preloads: [
-    {
-      id: "learn-more"
-      location: "example#learn-more"
-    }
-    {
-      id: "using-the-scanner"
-      location: "example#using-the-scanner"
-    }
-  ]
 
   # drawers:
   #   left:
